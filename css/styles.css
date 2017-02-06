@@ -1,0 +1,113 @@
+.print { display: none; }
+
+body {
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif !important;  
+}
+
+header {
+    border-bottom: 1px solid #777;
+    padding-top: 20px;
+    margin  : 0;   
+}
+
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+#main { margin: 0; }
+
+#main .header {
+    padding: 0 20px;
+    margin: 0;  
+}
+
+.header.g6 { 
+    background-color: #E9731E;
+    color: white;
+}
+.advisory-info {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 15px
+}
+
+.advisory-info .left { float: left; }
+.advisory-info .right {float: right; }
+
+.page-title { 
+    clear:both;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.page-title h2 { 
+    font-size: 1.25em;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+#content {
+    padding-top: 20px;
+}
+
+#content h3 {
+    font-family: Boogaloo !important;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#content section {
+    padding: 20px 0;
+}
+
+#content section p, #content section li {
+    font-size: 1.5em;
+}
+
+#content #collapseOne *, #content #collapseInfo1 .well *, #content #collapseInfo2 * {
+    font-size: 1.5rem;
+}
+
+#content #collapseInfo2 li {
+    color: #444;
+    text-align: left;
+}
+
+#content .overview p {
+    text-align: center;
+}
+
+.blue-section { 
+    background-color: #294c7b;
+    color: white;
+}
+.dk-gray-section {
+    background-color: #444;
+    color: white;
+}
+
+.add-info {
+    /*color: #0000ff; */
+    font-size: 13px !important;
+}
+
+.intro li {
+    margin-bottom: 15px;
+}
+
+.reflection { text-align: center; }
+.reflection h4 {
+    font-size: 16px;
+    font-style: italic;
+}
+
